@@ -244,7 +244,12 @@ margin-top: 2%;
 }
 
 @media(max-width:600px){
-.card
+body 
+  {
+   font-size:14px; 
+  }
+  
+  .card
 {
   flex-direction: column;
 }
