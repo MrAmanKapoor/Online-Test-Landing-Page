@@ -243,15 +243,15 @@ margin-top: 2%;
 }
 }
 
-@media(max-width:600px){
-body 
-  {
-   font-size:14px; 
-  }
-  
-  .card
+
+@media(max-width:800px){
+.card
 {
   flex-direction: column;
+}
+.option,.question,.content h2,.content p,.content h4
+ {
+  font-size: 13px;
 }
 .Contact-box
 {
